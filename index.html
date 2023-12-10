@@ -1,0 +1,42 @@
+html>
+  <title>Home Page</title>
+  <head>
+    <style type="text/css">
+      body{
+        font-family:"JetBrains Mono"
+      }
+			form{
+        text-align: center;
+      }
+			form .text {
+				display: inline-block;
+				border: 0;
+				width: 260px;
+				height: 35px;
+				font-size: 14px;
+				outline: none;
+				border: 2px solid #000000;
+			}
+			
+			form .search {
+				
+				width: 90px;
+				height: 38px;
+				border: 2px solid #000000;
+				outline: none;
+				cursor: pointer;
+				/*   cursor: pointer;   鼠标悬停或点击时button时鼠标变成其他图标  */
+				text-align: center;
+				background-color: #ffffff;
+      }
+      </style>
+  </head>
+  <body style="background-color:rgb(255, 255, 255);">
+    <h2 style="background-color:rgb(255, 255, 255);"align="center"><font color="black">Think Different.<br></font></h2>
+    
+		<form target="_blank" method="get" action="https://www.bing.com/search">
+			<input type="text" placeholder="" name="q" class="text" />
+			<input type="submit" value="搜索" class="search">
+		</form>
+  </body>
+</html>
